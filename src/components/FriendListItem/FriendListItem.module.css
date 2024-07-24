@@ -1,0 +1,39 @@
+.item {
+    padding: 20px 20px 20px 20px;
+display: flex;
+flex-direction: column;
+column-gap: 20px;
+align-items: center;
+background-color: white;
+border: 3px solid black;
+margin-bottom: 15px;
+border-radius: 8px;
+
+}
+
+.status {
+    display: block;
+    font-size: 36px;
+    color: red;
+    margin: 0px 0px 0px 0px;
+
+}
+.avatar {
+    width: 150px;
+   max-width: 100%;
+    display: block;
+    border-radius: 6px;
+    margin: 0px 0px 20px 0px;
+
+}
+.name{
+    font-size: 40px;
+    color: #3c4756;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+.status.isOnline {
+    
+   
+    color: green;
+}

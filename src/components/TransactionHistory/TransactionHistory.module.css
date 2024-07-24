@@ -1,0 +1,44 @@
+.transactionHistory {
+    font-size: 32px;
+
+}
+
+td,th {
+    width: 30vw;
+    
+}
+td {
+   border-right: 1px solid  black;
+   border-left: 1px solid black;
+    text-align: center;
+    padding: 10px 0px;
+    
+}
+thead {
+    background-color: black;
+    color: white;
+
+}
+
+thead th {
+    
+   padding: 10px 0px;
+   border: 1px solid black;
+   
+}
+thead tr {
+    display: flex;
+    flex-direction: row;
+    
+}
+tbody tr {
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    border: 1px solid black;
+    
+}
+
+tr:nth-child(2n) {
+    background-color: #d3d3d3;
+}
